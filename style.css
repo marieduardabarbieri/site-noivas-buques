@@ -98,3 +98,16 @@ body {
 .dot.active {
   background: #f08080;
 }
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .collection-card {
+    flex: 0 0 50%; /* 2 por linha */
+  }
+}
+
+@media (max-width: 600px) {
+  .collection-card {
+    flex: 0 0 100%; /* 1 por linha */
+  }
+}
