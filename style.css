@@ -45,3 +45,9 @@ hr {
   color: rgba(181, 181, 181, 1);
   width: 90%;
 }
+
+@media (max-width: 750px) {
+  .footer-container {
+    grid-template-columns: auto auto;
+  }
+}
