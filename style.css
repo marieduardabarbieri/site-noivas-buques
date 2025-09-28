@@ -2,16 +2,23 @@ body {
   font-family: "Poppins", sans-serif;
   background: #fff6f0; /* cor de fundo suave igual ao print */
   margin: 0;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
+  padding: 0;
 }
 
 .card3-delivery-content {
-  width: 80%;
+  display: grid;
+  width: 70%;
+  grid-template-columns: auto auto auto;
+  color: rgba(48, 48, 48, 1);
+  grid-template-columns: auto auto auto;
   background-color: white;
   border-bottom-left-radius: 3px;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 30px;
   border-top-left-radius: 3px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 30px;
+}
+
+.card3-delivery-item {
+  display: grid;
+  grid-template-columns: auto auto;
 }
