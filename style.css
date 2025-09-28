@@ -7,18 +7,28 @@ body {
 
 .card3-delivery-content {
   display: grid;
+  place-items: center;
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px;
   width: 70%;
   grid-template-columns: auto auto auto;
   color: rgba(48, 48, 48, 1);
   grid-template-columns: auto auto auto;
   background-color: white;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 30px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.card3-delivery-content img {
+  width: 40px;
+  padding: 30px;
 }
 
 .card3-delivery-item {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.card3-delivery-item {
+  border-left: rgba(255, 164, 164, 1) solid 1px;
 }
