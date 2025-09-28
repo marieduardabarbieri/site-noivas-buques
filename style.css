@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff6f0; /* cor de fundo suave igual ao print */
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.card3-delivery-content {
+  width: 80%;
+  background-color: white;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 20px;
+}
