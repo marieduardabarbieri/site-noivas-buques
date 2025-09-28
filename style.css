@@ -1,0 +1,28 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: rgba(122, 120, 120, 1);
+  padding: 0px 50px;
+}
+
+.footer-container li a {
+  list-style-type: none;
+
+  text-decoration: none;
+  color: rgba(122, 120, 120, 1);
+}
+
+.footer-container h3,
+h4 {
+  color: rgba(48, 48, 48, 1);
+  font-family: jost;
+  font-weight: 300;
+}
+
+.footer-container h3 {
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
