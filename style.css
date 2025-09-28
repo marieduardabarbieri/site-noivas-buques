@@ -43,3 +43,9 @@ p {
   color: #777;
   line-height: 1.2;
 }
+
+@media (max-width: 800px) {
+  .card3-delivery-content {
+    grid-template-columns: auto; /* 1 por linha */
+  }
+}
