@@ -1,13 +1,12 @@
 .footer-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: repeat(5, 1fr); /* 5 colunas iguais */
   color: rgba(122, 120, 120, 1);
   padding: 0px 50px;
 }
 
 .footer-container li a {
   list-style-type: none;
-
   text-decoration: none;
   color: rgba(122, 120, 120, 1);
 }
@@ -23,6 +22,12 @@ h4 {
   font-size: 25px;
 }
 
+.footer-column {
+  text-align: left; /* garante alinhamento de títulos e links */
+}
+
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
