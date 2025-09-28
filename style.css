@@ -22,7 +22,7 @@ body {
 .footer-container h3,
 h4 {
   color: rgba(48, 48, 48, 1);
-  font-family: jost;
+  font-family: tahoma;
   font-weight: 300;
 }
 
@@ -42,12 +42,28 @@ ul {
 }
 
 hr {
-  color: rgba(181, 181, 181, 1);
+  color: rgb(213, 213, 213);
   width: 90%;
+}
+
+.footer-bottom {
+  color: rgba(122, 120, 120, 1);
+  display: flex;
+  justify-content: space-between; /* joga um texto para a esquerda e outro para a direita */
+  margin: 40px 70px;
+}
+
+.footer-bottom #add-color {
+  text-align: right;
+}
+
+#add-color {
+  color: rgba(255, 164, 164, 1);
 }
 
 @media (max-width: 750px) {
   .footer-container {
     grid-template-columns: auto auto;
+    padding: 0px 30px;
   }
 }
