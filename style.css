@@ -1,14 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 colunas iguais */
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
   color: rgba(122, 120, 120, 1);
   padding: 0px 50px;
+  line-height: 1.5; /* valor confortável */
 }
 
 .footer-container li a {
   list-style-type: none;
   text-decoration: none;
   color: rgba(122, 120, 120, 1);
+  line-height: 2.1; /* valor confortável */
 }
 
 .footer-container h3,
@@ -24,6 +31,7 @@ h4 {
 
 .footer-column {
   text-align: left; /* garante alinhamento de títulos e links */
+  padding-left: 30px;
 }
 
 ul {
