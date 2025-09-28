@@ -11,19 +11,22 @@ body {
 }
 
 .collections-subtitle {
+  font-weight: 300; /* Collection */
   font-size: 14px;
-  color: #777;
-  margin-bottom: 10px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .collections-title {
+  font-weight: 500; /* Our Best */
   font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 30px;
+  color: #222;
 }
 
 .collections-title span {
-  color: #f08080;
+  font-weight: 600; /* Collections */
+  color: #ff6f6f; /* Ajuste a cor conforme sua paleta */
 }
 
 .collections-carousel {
