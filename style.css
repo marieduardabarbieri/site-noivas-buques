@@ -5,9 +5,10 @@ body {
 }
 .footer-container {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   color: rgba(122, 120, 120, 1);
-  padding: 0px 50px;
+  padding: 0px 60px;
+  margin-bottom: 50px;
   line-height: 1.5; /* valor confortável */
 }
 
@@ -38,4 +39,9 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+hr {
+  color: rgba(181, 181, 181, 1);
+  width: 90%;
 }
