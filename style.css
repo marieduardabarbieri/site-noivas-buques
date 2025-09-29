@@ -1,3 +1,7 @@
+/*PRIMEIRA PARTE DO Deal of the day*/
+body {
+  background-color: rgba(255, 223, 206, 0.46);
+}
 .deal-title {
   font-size: 35px;
   font-weight: 300; /* deixa a letra mais fina */
@@ -36,4 +40,36 @@
   letter-spacing: 2px; /* adiciona 1px entre cada letra */
   font-weight: bold; /* ou 700 */
   font-weight: 300; /* deixa a letra mais fina */
+}
+
+/*SEGUNDA PARTE*/
+.deal-products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.product-card {
+  width: 45%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 6.04px;
+  padding: 50px;
+  margin: 0px 50px;
+}
+
+#add-color {
+  color: rgba(255, 127, 127, 1);
+}
+
+.price-old {
+  color: rgba(122, 120, 120, 1);
+  font-size: 13px;
+}
+
+.btn-add {
+  background-color: rgba(255, 164, 164, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 7px 10px;
+  border-radius: 2.52px;
+  border: none;
 }
