@@ -49,7 +49,7 @@ body {
 }
 
 .product-card {
-  width: 45%;
+  width: 55%;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 6.04px;
@@ -63,13 +63,30 @@ body {
 
 .price-old {
   color: rgba(122, 120, 120, 1);
-  font-size: 13px;
+  font-size: 13px; 
+  text-decoration: line-through;
+  margin-top: 20px;
+
 }
 
 .btn-add {
   background-color: rgba(255, 164, 164, 1);
   color: rgba(255, 255, 255, 1);
-  padding: 7px 10px;
   border-radius: 2.52px;
+  padding: 3px;
   border: none;
+}
+
+.product-price {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.product-desc {
+  color: rgba(176, 176, 176, 1);
+}
+
+.product-title{
+      font-weight: 300; /* deixa a letra mais fina */
+s
 }
