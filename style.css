@@ -63,10 +63,9 @@ body {
 
 .price-old {
   color: rgba(122, 120, 120, 1);
-  font-size: 13px; 
+  font-size: 13px;
   text-decoration: line-through;
   margin-top: 20px;
-
 }
 
 .btn-add {
@@ -86,7 +85,6 @@ body {
   color: rgba(176, 176, 176, 1);
 }
 
-.product-title{
-      font-weight: 300; /* deixa a letra mais fina */
-s
+.product-title {
+  font-weight: 300; /* deixa a letra mais fina */
 }
