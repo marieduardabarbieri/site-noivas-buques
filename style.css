@@ -72,26 +72,66 @@ body {
   justify-content: right;
 }
 
-.box-shadow-img::before {
+.box-shadow-img img {
+  position: relative;
+  z-index: 1; /* imagem fica por cima do brilho */
+  max-width: 200px;
+}
+
+/* vaso rosa */
+.shadow-pink::before {
   content: "";
   position: absolute;
-  bottom: -20px; /* brilho no pé do vaso */
-  width: 180px;
-  height: 60px; /* achatado p/ parecer sombra */
+  bottom: -20px;
+  width: 220px;
+  height: 80px;
   border-radius: 50%;
   background: radial-gradient(
     ellipse,
-    rgba(255, 192, 203, 0.6) 0%,
-    transparent 70%
+    rgba(255, 105, 180, 0.4) 0%,
+    /* rosa forte */ rgba(255, 182, 193, 0.3) 30%,
+    /* rosa médio */ rgba(255, 228, 225, 0.2) 60%,
+    /* rosinha clarinho */ transparent 100%
   );
   z-index: 0;
 }
 
-.box-shadow-img img {
-  position: relative;
-  z-index: 1; /* imagem fica por cima do brilho */
-  max-width: 180px;
+/* vaso laranja/amarelo */
+.shadow-orange::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 220px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(255, 140, 0, 0.4) 0%,
+    /* laranja forte */ rgba(255, 200, 0, 0.3) 30%,
+    /* amarelo mais suave */ rgba(255, 239, 184, 0.2) 60%,
+    /* amarelo claro */ transparent 100%
+  );
+  z-index: 0;
 }
+
+/* vaso roxo/rosa */
+.shadow-purple::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 220px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(95, 85, 211, 0.4) 0%,
+    /* roxo forte */ rgba(218, 112, 214, 0.3) 30%,
+    /* lilás */ rgba(255, 182, 193, 0.088) 60%,
+    /* rosa bem clarinho */ transparent 100%
+  );
+  z-index: 0;
+}
+
 #add-color {
   color: rgba(255, 127, 127, 1);
 }
