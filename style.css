@@ -1,0 +1,142 @@
+body {
+  font-family: 'Jost', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700; /* negrito */
+}
+
+p, span {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400; /* normal */
+}
+/* ===== SEÇÃO PRODUTOS ===== */
+.secao-produtos {
+  padding: 80px 40px;
+  background: #fff8f3;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ===== TÍTULOS ===== */
+.secao-produtos .subtitulo {
+  font-size: 24px;
+  color: #77777764;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.secao-produtos .subtitulo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 80px;
+  height: 2px;
+}
+
+.secao-produtos .titulo {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.secao-produtos .titulo .destaque {
+  color: #ff6f91; /* rosa */
+}
+
+/* ===== GRID PRODUTOS ===== */
+.grade-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* ===== CARTÃO PRODUTO ===== */
+.cartao-produto {
+  flex: 1 1 250px;
+  max-width: 280px;
+  background: transparent;
+  border: none;
+  text-align: center;
+  position: relative;
+}
+
+.imagem-produto {
+  position: relative;
+  display: inline-block;
+}
+
+.imagem-produto img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.4s ease;
+}
+
+/* fundo rosa meia-lua */
+.imagem-produto::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 120px;
+  border-radius: 50% 0 0 50%;
+  background: #ffd0d070;
+  z-index: 1;
+}
+
+/* hover */
+.imagem-produto img:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+/* ===== TEXTO ===== */
+.nome-produto {
+  font-size: 18px;
+  margin: 15px 0 8px;
+  color: #222;
+}
+
+.info-produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.preco-produto {
+  font-weight: 500;
+  color: #444;
+}
+
+.avaliacao-produto {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #ffb400; /* amarelo da estrela */
+  font-weight: 500;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .grade-produtos {
+    gap: 20px;
+  }
+
+  .secao-produtos .titulo {
+    font-size: 28px;
+  }
+}
+ 
