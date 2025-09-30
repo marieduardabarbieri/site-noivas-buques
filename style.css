@@ -6,6 +6,7 @@ body {
   font-size: 35px;
   font-weight: 300; /* deixa a letra mais fina */
   color: rgba(48, 48, 48, 1);
+  margin: 8px 0 5px 0; /* aproxima o label do número */
 }
 
 .deal-subtitle {
@@ -31,7 +32,6 @@ body {
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
   margin: 0px 10px;
-  padding: 0px 20px;
   line-height: 1; /* diminui o espaço vertical */
 }
 
@@ -40,8 +40,12 @@ body {
   letter-spacing: 2px; /* adiciona 1px entre cada letra */
   font-weight: bold; /* ou 700 */
   font-weight: 300; /* deixa a letra mais fina */
+  margin: 10px 0 0 0; /* remove espaçamento padrão do <p> */
 }
 
+.time-label {
+  margin: 8px 0 10px 0; /* aproxima o label do número */
+}
 /*SEGUNDA PARTE*/
 .deal-products {
   display: grid;
@@ -51,6 +55,7 @@ body {
 .product-card {
   width: 55%;
   margin: 0 auto;
+
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 6.04px;
   padding: 50px;
