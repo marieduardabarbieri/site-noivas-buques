@@ -88,3 +88,24 @@ body {
 .product-title {
   font-weight: 300; /* deixa a letra mais fina */
 }
+
+/* Responsividade */
+@media (max-width: 1000px) {
+  .deal-of-the-day {
+    width: 70%;
+  }
+  .deal-products {
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+  }
+  .product-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .deal-products {
+    grid-template-columns: auto;
+  }
+}
