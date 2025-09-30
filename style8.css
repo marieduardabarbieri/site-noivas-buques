@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.depoimentos {
+  background: #fff6ef;
+  padding: 100px 20px;
+  position: relative;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  
+}
+
+.container-depoimentos {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Títulos */
+.titulo-pequeno {
+  font-size: 14px;
+  color: #8b7d7d;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.titulo-principal {
+  font-size: 36px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.titulo-principal .destaque {
+  color: #f58d8d;
+  font-weight: 600;
+}
+
+/* Texto */
+.texto-depoimento {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.informacoes-cliente {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.detalhes-cliente {
+  text-align: left;
+  border-left: 3px solid #f58d8d;
+  padding-left: 12px;
+}
+
+.nome-cliente {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.cargo-cliente {
+  font-size: 14px;
+  color: #777;
+}
+
+.avaliacao-cliente .estrela {
+  color: #ffb800;
+  font-size: 20px;
+  margin-left: 4px;
+}
+
+.aspas-inicio,
+.aspas-fim {
+  position: absolute;
+  font-size: 250px;
+  color: rgba(245, 141, 141, 0.2);
+  pointer-events: none;
+  line-height: 0;
+}
+
+.aspas-inicio {
+  left: -100px;
+  bottom: -120px;
+}
+
+.aspas-fim {
+  right: -100px;
+  top: 70px;
+}
+
+.flor-esquerda {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.flor-direita {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .informacoes-cliente {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aspas-inicio,
+  .aspas-fim {
+    display: none; 
+  }
+  .flor-esquerda,
+  .flor-direita {
+    display: none; 
+  }
+}
