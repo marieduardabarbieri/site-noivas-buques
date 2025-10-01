@@ -136,7 +136,7 @@ body {
   color: rgba(255, 127, 127, 1);
 }
 
-price-old {
+.price-old {
   color: rgba(122, 120, 120, 1);
   font-size: 13px;
   text-decoration: line-through;
