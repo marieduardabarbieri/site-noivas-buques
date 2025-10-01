@@ -4,20 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bkalp Designt</title>
-    <link 
-  rel="stylesheet" 
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
-  integrity="sha512-..." 
-  crossorigin="anonymous" 
-  referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style4.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="style4.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   </head>
+ 
   <body>
-    <div>Header</div>
-    <div>Card 2</div>
-    <div>Card 3</div>
+    <style>
+      body {
+        background: linear-gradient(90deg, #fff8f3 0%, #ffeaea 100%);
+        font-family: 'Jost', sans-serif;
+      }
+    </style>
+    <div class="card1 header">
+      <header class="cabecalho">
+        <div class="logo">
+          <img src="img/logo-flor.png" alt="Logo Bkalp Design" />
+          <span>Bkalp Design</span>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#" class="ativo">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Páginas</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="icones">
+          <a href="#" class="icone icone-busca"><i class="fa fa-search"></i></a>
+          <a href="#" class="icone icone-favorito"
+            ><i class="fa fa-heart"></i
+          ></a>
+          <a href="#" class="icone icone-carrinho"
+            ><i class="fa fa-shopping-cart"></i
+          ></a>
+          <a href="#" class="icone icone-usuario"><i class="fa fa-user"></i></a>
+        </div>
+        <button class="menu-toggle"><i class="fa fa-bars"></i></button>
+      </header>
+    </div>
+    <div class="card2">
+      <section class="secao-principal destaque-principal" aria-label="Destaque principal">
+        <div class="conteudo-destaque container">
+          <div class="coluna coluna-texto">
+            <span class="tag">ARTIFICIAL FLOWER</span>
+
+            <h1 class="titulo-destaque">
+              Unique Flowers <span class="destaque">delivered</span><br />
+              to your doorstep
+            </h1>
+
+            <p class="descricao-destaque">
+              Lorem ipsum dolor sit amet consectetur. Posuere dolor commodo
+              tellus diam mauris dolor at dui.
+            </p>
+
+            <div class="acoes-destaque">
+              <a href="#produtos" class="botao botao-primario" role="button"
+                >Shop Now</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="coluna coluna-imagem"
+            role="img"
+            aria-label="Arranjo de flores"
+          >
+            <img
+              src="img/bouquet1-card2.png"
+              alt="Arranjo grande de flores"
+              class="imagem-destaque"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="card3 card3-delivery-content">
+      <div class="card3-delivery-item">
+        <img
+          src="https://img.icons8.com/ios-filled/100/000000/shopping-bag.png"
+          alt="Shopping"
+        />
+        <div>
+          <h3>Free Shopping</h3>
+          <p>Cost on all order $0.00</p>
+        </div>
+      </div>
+
+      <div class="card3-delivery-item">
+        <img
+          src="https://img.icons8.com/ios-filled/100/000000/delivery.png"
+          alt="Delivery"
+        />
+        <div>
+          <h3>Free Delivery</h3>
+          <p>We offer FREE deliver</p>
+        </div>
+      </div>
+
+      <div class="card3-delivery-item">
+        <img
+          src="https://img.icons8.com/ios-filled/100/000000/gift.png"
+          alt="Gift"
+        />
+        <div>
+          <h3>Free Delivery</h3>
+          <p>We offer FREE deliver</p>
+        </div>
+      </div>
+    </div>
+
     <div class="card4">
         <section class="secao-produtos">
             <div class="conteiner">
@@ -83,10 +194,13 @@
             </div>
         </section>
     </div>
+
     <div>Card 5</div>
     <div>Card 6</div>
     <div>Card 7</div>
     <div>Card 8</div>
     <div>Footer</div>
+
+    <script src="index.js"></script>
   </body>
 </html>
