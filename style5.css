@@ -136,11 +136,26 @@ body {
   color: rgba(255, 127, 127, 1);
 }
 
-.price-old {
+price-old {
   color: rgba(122, 120, 120, 1);
   font-size: 13px;
   text-decoration: line-through;
   margin-top: 20px;
+  margin-left: 3px;
+}
+
+.product-price {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px; /* espaço entre os preços 
+}
+
+.price-old {
+  color: rgba(122, 120, 120, 1);
+  font-size: 13px;
+  text-decoration: line-through;
+  /* REMOVA margin-top/left que estavam causando deslocamento */
+  margin: 0;
 }
 
 .btn-add {
@@ -149,11 +164,6 @@ body {
   border-radius: 2.52px;
   padding: 3px;
   border: none;
-}
-
-.product-price {
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
 .product-desc {
