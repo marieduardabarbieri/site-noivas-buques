@@ -1,0 +1,135 @@
+body {
+  font-family: 'Jost', sans-serif;
+}
+.card4 h1, h2, h3 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700; /* negrito */
+}
+
+.card4 p, span {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400; /* normal */
+}
+
+.card4 .secao-produtos {
+  padding: 80px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card4 .secao-produtos .subtitulo {
+  font-size: 24px;
+  color: #77777764;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.card4 .secao-produtos .subtitulo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 80px;
+  height: 2px;
+}
+
+.card4 .secao-produtos .titulo {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.card4 .secao-produtos .titulo .destaque {
+  color: #ff6f91; /* rosa */
+}
+
+.card4 .grade-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card4 .cartao-produto {
+  flex: 1 1 250px;
+  max-width: 280px;
+  background: transparent;
+  border: none;
+  text-align: center;
+  position: relative;
+}
+
+.card4 .imagem-produto {
+  position: relative;
+  display: inline-block;
+}
+
+.card4 .imagem-produto img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.4s ease;
+}
+
+.card4 .imagem-produto::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 120px;
+  border-radius: 50% 0 0 50%;
+  background: #ffd0d070;
+  z-index: 1;
+}
+
+.card4 .imagem-produto img:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+.card4 .nome-produto {
+  font-size: 18px;
+  margin: 15px 0 8px;
+  color: #222;
+}
+
+.card4 .info-produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.card4 .preco-produto {
+  font-weight: 500;
+  color: #444;
+}
+
+.card4 .avaliacao-produto {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #ffb400; /* amarelo da estrela */
+  font-weight: 500;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .card4 .grade-produtos {
+    gap: 20px;
+  }
+
+  .card4 .secao-produtos .titulo {
+    font-size: 28px;
+  }
+}
+ 
