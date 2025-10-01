@@ -1,0 +1,196 @@
+/*PRIMEIRA PARTE DO Deal of the day*/
+body {
+  background-color: rgba(255, 223, 206, 0.46);
+}
+.deal-title {
+  font-size: 35px;
+  font-weight: 300; /* deixa a letra mais fina */
+  color: rgba(48, 48, 48, 1);
+  margin: 8px 0 5px 0; /* aproxima o label do número */
+}
+
+.deal-subtitle {
+  color: rgba(122, 120, 120, 1);
+}
+
+.deal-of-the-day {
+  display: grid;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.deal-timer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 30px 0px;
+}
+
+.timer-box {
+  background-color: rgba(255, 164, 164, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  margin: 0px 10px;
+  line-height: 1; /* diminui o espaço vertical */
+}
+
+.time-number {
+  font-size: 21px;
+  letter-spacing: 2px; /* adiciona 1px entre cada letra */
+  font-weight: bold; /* ou 700 */
+  font-weight: 300; /* deixa a letra mais fina */
+  margin: 10px 0 0 0; /* remove espaçamento padrão do <p> */
+}
+
+.time-label {
+  margin: 8px 0 10px 0; /* aproxima o label do número */
+}
+/*SEGUNDA PARTE*/
+.deal-products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.product-card {
+  width: 55%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 6.04px;
+  padding: 50px;
+  margin: 80px 50px;
+}
+
+.product-img {
+  margin-top: -140px; /* faz a imagem "subir" e ficar metade pra fora */
+  float: right;
+}
+
+.box-shadow-img {
+  position: relative; /* precisa pro ::before se basear no container */
+  display: flex;
+  justify-content: right;
+}
+
+.box-shadow-img img {
+  position: relative;
+  z-index: 1; /* imagem fica por cima do brilho */
+  max-width: 200px;
+}
+
+/* vaso rosa */
+.shadow-pink::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 220px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(255, 105, 180, 0.4) 0%,
+    /* rosa forte */ rgba(255, 182, 193, 0.3) 30%,
+    /* rosa médio */ rgba(255, 228, 225, 0.2) 60%,
+    /* rosinha clarinho */ transparent 100%
+  );
+  z-index: 0;
+}
+
+/* vaso laranja/amarelo */
+.shadow-orange::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 220px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(255, 140, 0, 0.4) 0%,
+    /* laranja forte */ rgba(255, 200, 0, 0.3) 30%,
+    /* amarelo mais suave */ rgba(255, 239, 184, 0.2) 60%,
+    /* amarelo claro */ transparent 100%
+  );
+  z-index: 0;
+}
+
+/* vaso roxo/rosa */
+.shadow-purple::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 220px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(95, 85, 211, 0.4) 0%,
+    /* roxo forte */ rgba(218, 112, 214, 0.3) 30%,
+    /* lilás */ rgba(255, 182, 193, 0.088) 60%,
+    /* rosa bem clarinho */ transparent 100%
+  );
+  z-index: 0;
+}
+
+#add-color {
+  color: rgba(255, 127, 127, 1);
+}
+
+.price-old {
+  color: rgba(122, 120, 120, 1);
+  font-size: 13px;
+  text-decoration: line-through;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+.product-price {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px; /* espaço entre os preços 
+}
+
+.price-old {
+  color: rgba(122, 120, 120, 1);
+  font-size: 13px;
+  text-decoration: line-through;
+  /* REMOVA margin-top/left que estavam causando deslocamento */
+  margin: 0;
+}
+
+.btn-add {
+  background-color: rgba(255, 164, 164, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 2.52px;
+  padding: 3px;
+  border: none;
+}
+
+.product-desc {
+  color: rgba(176, 176, 176, 1);
+}
+
+.product-title {
+  font-weight: 300; /* deixa a letra mais fina */
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+  .deal-of-the-day {
+    width: 70%;
+  }
+  .deal-products {
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+  }
+  .product-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .deal-products {
+    grid-template-columns: auto;
+  }
+}
