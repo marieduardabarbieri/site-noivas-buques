@@ -1,43 +1,42 @@
-
-.secao-porque-escolher {
+.card6 .secao-porque-escolher {
   padding: 80px 20px;
   text-align: center;
   font-family: 'Jost', sans-serif;
 }
 
-.secao-porque-escolher .subtitulo {
+.card6 .secao-porque-escolher .subtitulo {
   color: #555;
   font-size: 14px;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
-.secao-porque-escolher .titulo {
+.card6 .secao-porque-escolher .titulo {
   font-size: 36px;
   margin-bottom: 60px;
   font-weight: 500;
   color: #333;
 }
 
-.secao-porque-escolher .titulo .destaque {
+.card6 .secao-porque-escolher .titulo .destaque {
   color: #f06b6b;
   font-weight: 600;
 }
 
-.conteudo-porque-escolher {
+.card6 .conteudo-porque-escolher {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 40px;
 }
 
-.coluna-informacoes {
+.card6 .coluna-informacoes {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.item-informacao {
+.card6 .item-informacao {
   border-radius: 12px;
   padding: 15px;
   text-align: left;
@@ -45,100 +44,97 @@
   margin: 0 auto;
 }
 
-.item-informacao .titulo-item {
+.card6 .item-informacao .titulo-item {
   font-size: 18px;
   margin-bottom: 8px;
   font-weight: 600;
   color: #333;
 }
 
-.item-informacao .descricao-item {
+.card6 .item-informacao .descricao-item {
   font-size: 14px;
   color: #666;
   line-height: 1.5;
 }
 
-/* ======= Cores ======= */
-.item-salmao {
+.card6 .item-salmao {
   background:  #f0e1e1;
   margin-left: 30%;
   margin-bottom: 10%; 
 }
-.item-rosa {
+.card6 .item-rosa {
   background: #fba7a7;
   color: #fff;
   margin-bottom: 10%; 
 }
 
-.item-amarelo {
+.card6 .item-amarelo {
   background: #fff2cc; 
   margin-left: 30%;
 }
 
-.item-salmao-2 {
+.card6 .item-salmao-2 {
   background:  #f0e1e1;
   margin-right: 30%; 
 }
-.item-rosa-2 {
+.card6 .item-rosa-2 {
   background: #fba7a7;
   color: #fff;
   margin-bottom: 10%; 
 }
 
-.item-amarelo-2 {
+.card6 .item-amarelo-2 {
   background: #fff2cc; 
   margin-right: 30%; 
   margin-bottom: 10%; 
 }
 
-.item-rosa .titulo-item,
-.item-rosa .descricao-item,
-.item-rosa-2 .titulo-item,
-.item-rosa-2 .descricao-item {
+.card6 .item-rosa .titulo-item,
+.card6 .item-rosa .descricao-item,
+.card6 .item-rosa-2 .titulo-item,
+.card6 .item-rosa-2 .descricao-item {
   color: #fff;
 }
 
-/* ======= Imagem central ======= */
-.imagem-central img {
+.card6 .imagem-central img {
   max-width: 320px;
   width: 150%;
   display: block;
   margin: 0 auto;
 }
 
-/* ======= Responsividade ======= */
 @media (max-width: 992px) {
-  .conteudo-porque-escolher {
+  .card6 .conteudo-porque-escolher {
     grid-template-columns: 1fr;
   }
 
-  .coluna-informacoes {
+  .card6 .coluna-informacoes {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .item-informacao {
+  .card6 .item-informacao {
     max-width: 45%;
     margin: 0;
   }
 
-  .imagem-central {
+  .card6 .imagem-central {
     margin: 40px 0;
   }
 }
 
 @media (max-width: 600px) {
-  .coluna-informacoes {
+  .card6 .coluna-informacoes {
     flex-direction: column;
     align-items: center;
   }
 
-  .item-informacao {
+  .card6 .item-informacao {
     max-width: 100%;
   }
 
-  .secao-porque-escolher .titulo {
+  .card6 .secao-porque-escolher .titulo {
     font-size: 28px;
   }
 }
