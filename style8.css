@@ -1,9 +1,4 @@
-body {
-    padding: 0;
-    margin: 0;
-}
-.depoimentos {
-  background: #fff6ef;
+.card8 .depoimentos {
   padding: 100px 20px;
   position: relative;
   font-family: 'Jost', sans-serif;
@@ -11,72 +6,71 @@ body {
   
 }
 
-.container-depoimentos {
+.card8 .container-depoimentos {
   max-width: 900px;
   margin: 0 auto;
   position: relative;
 }
 
-/* Títulos */
-.titulo-pequeno {
+
+.card8 .titulo-pequeno {
   font-size: 14px;
   color: #8b7d7d;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
-.titulo-principal {
+.card8 .titulo-principal {
   font-size: 36px;
   font-weight: 500;
   color: #333;
   margin-bottom: 30px;
 }
 
-.titulo-principal .destaque {
+.card8 .titulo-principal .destaque {
   color: #f58d8d;
   font-weight: 600;
 }
 
-/* Texto */
-.texto-depoimento {
+.card8 .texto-depoimento {
   font-size: 16px;
   color: #555;
   line-height: 1.8;
   margin-bottom: 10px;
 }
 
-.informacoes-cliente {
+.card8 .informacoes-cliente {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
 }
 
-.detalhes-cliente {
+.card8 .detalhes-cliente {
   text-align: left;
   border-left: 3px solid #f58d8d;
   padding-left: 12px;
 }
 
-.nome-cliente {
+.card8 .nome-cliente {
   font-size: 18px;
   font-weight: 600;
   color: #333;
 }
 
-.cargo-cliente {
+.card8 .cargo-cliente {
   font-size: 14px;
   color: #777;
 }
 
-.avaliacao-cliente .estrela {
+.card8 .avaliacao-cliente .estrela {
   color: #ffb800;
   font-size: 20px;
   margin-left: 4px;
 }
 
-.aspas-inicio,
-.aspas-fim {
+.card8 .aspas-inicio,
+.card8 .aspas-fim {
   position: absolute;
   font-size: 250px;
   color: rgba(245, 141, 141, 0.2);
@@ -84,24 +78,24 @@ body {
   line-height: 0;
 }
 
-.aspas-inicio {
+.card8 .aspas-inicio {
   left: -100px;
   bottom: -120px;
 }
 
-.aspas-fim {
+.card8 .aspas-fim {
   right: -100px;
   top: 70px;
 }
 
-.flor-esquerda {
+.card8 .flor-esquerda {
   position: absolute;
   top: 30%;
   left: 0;
   transform: translateY(-50%);
 }
 
-.flor-direita {
+.card8 .flor-direita {
   position: absolute;
   top: 60%;
   right: 0;
@@ -109,16 +103,16 @@ body {
 }
 
 @media (max-width: 768px) {
-  .informacoes-cliente {
+  .card8 .informacoes-cliente {
     flex-direction: column;
     gap: 20px;
   }
-  .aspas-inicio,
-  .aspas-fim {
+  .card8 .aspas-inicio,
+  .card8 .aspas-fim {
     display: none; 
   }
-  .flor-esquerda,
-  .flor-direita {
+  .card8 .flor-esquerda,
+  .card8 .flor-direita {
     display: none; 
   }
 }
