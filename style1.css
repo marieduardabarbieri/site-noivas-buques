@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background: #fff8f3;
+  padding: 15px 40px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 28px;
+  height: auto;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.menu ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #ff6f91;
+}
+
+.menu a.ativo {
+  color: #ff6f91;
+  font-weight: 500;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #ff6f91;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s ease;
+  text-decoration: none; 
+}
+
+.icone-busca {
+  background: #333;
+}
+
+.icone:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: none;
+}
+
+
+@media (max-width: 768px) {
+  .menu {
+    display: none; 
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 15px;
+    background: #fff8f3;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  .menu.ativo {
+    display: block; 
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+}
