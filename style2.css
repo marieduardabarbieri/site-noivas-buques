@@ -1,6 +1,5 @@
 .card2 .secao-principal {
   padding: 80px 40px;
-  
   position: relative;
   overflow: hidden;
 }
@@ -9,21 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
   flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.card2 .secao-principal::before {
-  content: "";
-  position: absolute;
-  top: -100px;
-  left: -150px;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 111, 145, 0.2);
+  margin-left: 5%;
 }
 
 .card2 .secao-principal::after {
@@ -37,11 +23,12 @@
 }
 
 .card2 .coluna-texto {
-  flex: 1 1 45%;
+  flex: 1 1 50%;
+  animation: aparecerTexto 1.5s ease forwards;
 }
 
 .card2 .tag {
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 2px;
   color: #777;
   font-weight: 500;
@@ -52,23 +39,24 @@
   padding-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
+
 }
 
 .card2 .titulo-destaque {
-  font-size: 46px;
+  font-size: 60px;
   line-height: 1.2;
-  color: #222;
-  font-weight: 600;
+  color: #000000;
+  font-weight: 100;
   margin-bottom: 20px;
 }
 
 .card2 .titulo-destaque .destaque {
   color: #ff6f91;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .card2 .descricao-destaque {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   color: #666;
   max-width: 450px;
@@ -82,7 +70,6 @@
   font-weight: 500;
   border-radius: 6px;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 
 .card2 .botao-primario {
@@ -117,7 +104,7 @@
   z-index: 1;
   opacity: 0;
   transform: scale(0.8) translateY(40px);
-  animation: aparecerFlor 2.5s ease forwards;
+  animation: aparecerFlor 1.5s ease forwards;
 }
 
 @keyframes aparecerFlor {
@@ -128,6 +115,17 @@
   100% {
     opacity: 1;
     transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes aparecerTexto {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); 
   }
 }
 
