@@ -164,6 +164,11 @@ body {
   border-radius: 2.52px;
   padding: 3px;
   border: none;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #ff6f91;
 }
 
 .product-desc {
