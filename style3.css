@@ -2,17 +2,18 @@
 .card3-delivery-content {
   display: grid;
   place-items: center;
-  width: 55%;
   margin: 0 auto;
   padding: 10px;
-  width: 70%;
+  width: 80%;
   grid-template-columns: auto auto auto;
   color: rgba(48, 48, 48, 1);
-  grid-template-columns: auto auto auto;
   background-color: white;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
+  position: relative; /* para o círculo ficar atrás */
+  z-index: 1;
 }
+
  .card3-delivery-content img {
   width: 40px;
   padding: 25px;
