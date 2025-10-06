@@ -2,6 +2,40 @@
 body {
   background-color: rgba(255, 223, 206, 0.46);
 }
+.deal-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Flor da esquerda */
+.flor-esquerda {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  transform: translateY(-50%); /* centraliza verticalmente */
+  width: 7%;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+/* Flor da direita */
+.flor-direita {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-50%);
+  width: 6%;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+/* Conteúdo acima das flores */
+.deal-of-the-day,
+.deal-products {
+  position: relative;
+  z-index: 1;
+}
+
 .deal-title {
   font-size: 35px;
   font-weight: 300; /* deixa a letra mais fina */
