@@ -31,7 +31,6 @@ body {
 
 .collections-carousel {
   overflow: hidden;
-  max-width: 1100px;
   margin: 0 auto;
   position: relative;
 }
