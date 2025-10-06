@@ -83,10 +83,11 @@ updateCarousel();
 
 // ===== Scroll Reveal Config =====
 ScrollReveal({
-  reset: false,           // repete animação ao voltar a rolar
-  distance: '60px',      // distância do movimento
-  duration: 2000,        // tempo da animação
-  delay: 150             // atraso inicial
+  reset: true,           // repete animação ao voltar a rolar
+  distance: '30px',      // distância do movimento
+  duration: 1500,        // tempo da animação
+  delay: 150,             // atraso inicial
+  easing: 'ease-in-out'
 });
 
 // ===== Aplicar efeito em cada seção =====

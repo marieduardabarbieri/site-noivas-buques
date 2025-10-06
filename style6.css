@@ -2,6 +2,7 @@
   padding: 80px 20px;
   text-align: center;
   font-family: 'Jost', sans-serif;
+  position: relative;
 }
 
 .card6 .secao-porque-escolher .subtitulo {
@@ -34,13 +35,15 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .card6 .item-informacao {
   border-radius: 12px;
   padding: 15px;
   text-align: left;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -58,33 +61,33 @@
 }
 
 .card6 .item-salmao {
-  background:  #f0e1e1;
+  background:  #FFE2D1;
   margin-left: 30%;
   margin-bottom: 10%; 
 }
 .card6 .item-rosa {
-  background: #fba7a7;
+  background: #FFA4A4;
   color: #fff;
   margin-bottom: 10%; 
 }
 
 .card6 .item-amarelo {
-  background: #fff2cc; 
+  background: #FFEFD0; 
   margin-left: 30%;
 }
 
 .card6 .item-salmao-2 {
-  background:  #f0e1e1;
+  background:  #FFE2D1;
   margin-right: 30%; 
 }
 .card6 .item-rosa-2 {
-  background: #fba7a7;
+  background: #FFA4A4;
   color: #fff;
   margin-bottom: 10%; 
 }
 
 .card6 .item-amarelo-2 {
-  background: #fff2cc; 
+  background: #FFEFD0; 
   margin-right: 30%; 
   margin-bottom: 10%; 
 }
@@ -95,6 +98,46 @@
 .card6 .item-rosa-2 .descricao-item {
   color: #fff;
 }
+
+.item-informacao {
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease; /* Suaviza o efeito */
+  cursor: pointer;
+  transform-origin: center;
+}
+
+/* Zoom e leve mudança de cor */
+.item-informacao:hover {
+  transform: scale(1.05); /* Aumenta levemente */
+  filter: brightness(1.1); /* Deixa a cor mais viva */
+}
+
+/* Se quiser personalizar as cores de cada tipo no hover: */
+.item-salmao:hover {
+  background-color: #f8b6aa;
+}
+
+.item-rosa:hover {
+  background-color: #ffb3b3;
+}
+
+.item-amarelo:hover {
+  background-color: #ffeb99;
+}
+
+.item-amarelo-2:hover {
+  background-color: #fff2b2;
+}
+
+.item-rosa-2:hover {
+  background-color: #ffc4c4;
+}
+
+.item-salmao-2:hover {
+  background-color: #f8bfb4;
+}
+
 
 .card6 .imagem-central img {
   max-width: 320px;
