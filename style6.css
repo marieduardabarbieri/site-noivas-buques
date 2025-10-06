@@ -3,6 +3,7 @@
   text-align: center;
   font-family: 'Jost', sans-serif;
   position: relative;
+  overflow: hidden;
 }
 
 .card6 .secao-porque-escolher .subtitulo {
