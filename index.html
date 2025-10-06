@@ -27,8 +27,61 @@
       body {
         background: linear-gradient(90deg, #fff8f3 0%, #ffeaea 100%);
         font-family: 'Jost', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
       }
+      
+    *[style*="transform"] {
+       will-change: transform;
+      backface-visibility: hidden;
+      }
+
+      section, div {
+  scroll-margin-top: 80px; /* evita sobreposição com header fixo */
+}
+      .circulo1 {
+        content: "";
+        position: absolute;
+        top: -100px;
+        left: -400px;
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 111, 145, 0.2);
+      }
+     .circulo2 {
+        content: "";
+        position: absolute;
+        top: -110px;
+        left: -400px;
+        width: 770px;
+        height: 700px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 111, 145, 0.2);
+      }
+      .circulo3 {
+        content: "";
+        position: absolute;
+        top: 400px;
+        right: -500px;
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 111, 145, 0.2);
+      }
+     .circulo4 {
+        content: "";
+        position: absolute;
+        top: 500px;
+        right: -500px;
+        width: 720px;
+        height: 700px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 111, 145, 0.2);
+      }   
     </style>
+    
     <div class="card1 header">
       <header class="cabecalho">
         <div class="logo">
@@ -289,8 +342,77 @@
             </div>
         </section>
     </div>
-    <div>Footer</div>
+<footer>
+      <div class="footer-container">
+        <!-- Coluna 1 -->
+        <div class="footer-column">
+          <h3><img src="img/flower-rodape.png" alt="icon-flower-footer"> Flowers</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Posuere dolor commodo tellus
+            diam dolor tellus diam mauris dolor at dui.
+          </p>
+          <div class="social-icons">
+            <a href="#">
+              <img src="img/instagram.png" alt="icon-instagram">
+            </i></a>
+            <a href="#"><img src="img/youtube.png" alt="icon-youtube"></i></a>
+            <a href="#"><img src="img/linkedin.png" alt="icon-linkedin"></a>
+            <a href="#"><img src="img/facebook.png" alt="icon-facebook"></a>
+          </div>
+        </div>
 
+        <!-- Coluna 2 -->
+      <div class="footer-column">
+        <h4>Home</h4>
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3 -->
+      <div class="footer-column">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#">Winter Collection</a></li>
+          <li><a href="#">Summer Collection</a></li>
+          <li><a href="#">Special Discount</a></li>
+          <li><a href="#">Top rated Products</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 4 -->
+      <div class="footer-column">
+        <h4>Payment Method</h4>
+        <ul>
+          <li><a href="#">Credit card</a></li>
+          <li><a href="#">Debit card</a></li>
+          <li><a href="#">Bank Transfer</a></li>
+          <li><a href="#">Paypal</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 5 -->
+      <div class="footer-column footer-apps">
+        <h4>Get Online</h4>
+        <a href="#"><img src="img/app.png" alt="Google Play" /></a><br>
+      </div>
+    </div> <hr>
+
+      </div>
+
+       <div class="footer-bottom">
+      <p>© 2024 all right reserved by bkalpdesign</p>
+      <p id="add-color">Design By- <span>Bkalp design</span></p>
+    </div>
+    </footer>
+    <div class="circulo1"></div>
+    <div class="circulo2"></div>
+    <div class="circulo3"></div>
+    <div class="circulo4"></div>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="index.js"></script>
   </body>
 </html>
