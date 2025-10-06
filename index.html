@@ -34,7 +34,17 @@
         font-family: 'Jost', sans-serif;
         margin: 0;
         padding: 0;
+        overflow-x: hidden;
       }
+      
+    *[style*="transform"] {
+       will-change: transform;
+      backface-visibility: hidden;
+      }
+
+      section, div {
+  scroll-margin-top: 80px; /* evita sobreposição com header fixo */
+}
       .circulo1 {
         content: "";
         position: absolute;
@@ -75,6 +85,16 @@
         border-radius: 50%;
         border: 1px solid rgba(255, 111, 145, 0.2);
       }
+      .reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
       
     </style>
     
@@ -600,7 +620,9 @@
     <div class="circulo2"></div>
     <div class="circulo3"></div>
     <div class="circulo4"></div>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="index.js"></script>
     <script src="script.js"></script>
+    
   </body>
 </html>

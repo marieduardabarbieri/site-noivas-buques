@@ -79,3 +79,43 @@ updateCarousel();
     }
   }, 1000);
 
+// reveal scroll, reaparece quando desce ou sobe
+
+// ===== Scroll Reveal Config =====
+ScrollReveal({
+  reset: false,           // repete animação ao voltar a rolar
+  distance: '60px',      // distância do movimento
+  duration: 2000,        // tempo da animação
+  delay: 150             // atraso inicial
+});
+
+// ===== Aplicar efeito em cada seção =====
+
+// Cabeçalho
+ScrollReveal().reveal('.header', { origin: 'top' });
+
+// Seção principal
+ScrollReveal().reveal('.card2', { origin: 'left' });
+
+// Cards de delivery (Free Shopping, etc)
+ScrollReveal().reveal('.card3', { origin: 'bottom', interval: 200 });
+
+// Produtos
+ScrollReveal().reveal('.card4', { origin: 'right' });
+
+// Ofertas e contagem regressiva
+ScrollReveal().reveal('.deal-of-the-day', { origin: 'top' });
+ScrollReveal().reveal('.deal-products', { origin: 'bottom', interval: 200 });
+
+// Seção “Why choose our flowers”
+ScrollReveal().reveal('.card6', { origin: 'left' });
+
+// Coleções
+ScrollReveal().reveal('.collections-section', { origin: 'top' });
+ScrollReveal().reveal('.collections-carousel', { origin: 'bottom', interval: 150 });
+
+// Depoimentos
+ScrollReveal().reveal('.card8', { origin: 'right' });
+
+// Rodapé
+ScrollReveal().reveal('footer', { origin: 'bottom' });
