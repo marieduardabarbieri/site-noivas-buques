@@ -30,7 +30,7 @@
 .card3-delivery-item:not(:last-child)::after {
   content: "";
   position: absolute;
-  right: -40px; /* ajusta o espaço entre os blocos */
+  right: -70px; /* ajusta o espaço entre os blocos */
   top: 50%;
   transform: translateY(-50%);
   width: 3.5px;
@@ -78,4 +78,17 @@
   .card3-delivery-item:not(:last-child)::after {
     display: none;
   }
+}
+
+/*mexer os icones*/
+@keyframes swing {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(4deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.card3-delivery-content img:hover {
+  animation: swing 0.5s ease;
 }
