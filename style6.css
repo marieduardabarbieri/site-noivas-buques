@@ -45,15 +45,14 @@
 
 .card6 .item-informacao {
   border-radius: 12px;
-  padding: 15px;
+  margin: 0;
   text-align: left;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .card6 .item-informacao .titulo-item {
   font-size: 18px;
-  margin-bottom: 8px;
   font-weight: 600;
   color: #333;
 }
@@ -73,6 +72,7 @@
   background: #ffa4a4;
   color: #fff;
   margin-bottom: 10%;
+  margin-right: 30%;
 }
 
 .card6 .item-amarelo {
@@ -88,6 +88,7 @@
   background: #ffa4a4;
   color: #fff;
   margin-bottom: 10%;
+  margin-left: 30%;
 }
 
 .card6 .item-amarelo-2 {
