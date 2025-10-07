@@ -11,21 +11,23 @@ body {
 }
 
 .collections-subtitle {
-  font-weight: 300; /* Collection */
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 250;
   color: #666;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: 2px; /* deixa bem colado no título */
 }
 
 .collections-title {
-  font-weight: 500; /* Our Best */
-  font-size: 28px;
+  font-size: 45px;
+  font-weight: 400;
   color: #222;
+  margin-top: 0; /* remove o espaçamento padrão de cima */
 }
 
 .collections-title span {
-  font-weight: 600; /* Collections */
+  font-weight: 400; /* Collections */
   color: #ff6f6f; /* Ajuste a cor conforme sua paleta */
 }
 

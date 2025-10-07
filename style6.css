@@ -1,22 +1,25 @@
 .card6 .secao-porque-escolher {
   padding: 80px 20px;
   text-align: center;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   position: relative;
   overflow: hidden;
 }
 
 .card6 .secao-porque-escolher .subtitulo {
   color: #555;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 250;
+  margin-bottom: 2px; /* deixa bem colado no título */
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
 .card6 .secao-porque-escolher .titulo {
-  font-size: 36px;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 0; /* remove o espaçamento padrão de cima */
   margin-bottom: 60px;
-  font-weight: 500;
   color: #333;
 }
 
@@ -62,35 +65,35 @@
 }
 
 .card6 .item-salmao {
-  background:  #FFE2D1;
+  background: #ffe2d1;
   margin-left: 30%;
-  margin-bottom: 10%; 
+  margin-bottom: 10%;
 }
 .card6 .item-rosa {
-  background: #FFA4A4;
+  background: #ffa4a4;
   color: #fff;
-  margin-bottom: 10%; 
+  margin-bottom: 10%;
 }
 
 .card6 .item-amarelo {
-  background: #FFEFD0; 
+  background: #ffefd0;
   margin-left: 30%;
 }
 
 .card6 .item-salmao-2 {
-  background:  #FFE2D1;
-  margin-right: 30%; 
+  background: #ffe2d1;
+  margin-right: 30%;
 }
 .card6 .item-rosa-2 {
-  background: #FFA4A4;
+  background: #ffa4a4;
   color: #fff;
-  margin-bottom: 10%; 
+  margin-bottom: 10%;
 }
 
 .card6 .item-amarelo-2 {
-  background: #FFEFD0; 
-  margin-right: 30%; 
-  margin-bottom: 10%; 
+  background: #ffefd0;
+  margin-right: 30%;
+  margin-bottom: 10%;
 }
 
 .card6 .item-rosa .titulo-item,
@@ -139,7 +142,6 @@
   background-color: #f8bfb4;
 }
 
-
 .card6 .imagem-central img {
   max-width: 320px;
   width: 150%;
@@ -182,4 +184,3 @@
     font-size: 28px;
   }
 }
-

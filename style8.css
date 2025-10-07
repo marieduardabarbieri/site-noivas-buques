@@ -1,9 +1,8 @@
 .card8 .depoimentos {
   padding: 100px 20px;
   position: relative;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   text-align: center;
-  
 }
 
 .card8 .container-depoimentos {
@@ -12,24 +11,25 @@
   position: relative;
 }
 
-
 .card8 .titulo-pequeno {
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 250;
+  margin-bottom: 2px; /* deixa bem colado no título */
   color: #8b7d7d;
   letter-spacing: 2px;
-  margin-bottom: 10px;
 }
 
 .card8 .titulo-principal {
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 0; /* remove o espaçamento padrão de cima */
   color: #333;
   margin-bottom: 30px;
 }
 
 .card8 .titulo-principal .destaque {
   color: #f58d8d;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .card8 .texto-depoimento {
@@ -109,10 +109,10 @@
   }
   .card8 .aspas-inicio,
   .card8 .aspas-fim {
-    display: none; 
+    display: none;
   }
   .card8 .flor-esquerda,
   .card8 .flor-direita {
-    display: none; 
+    display: none;
   }
 }

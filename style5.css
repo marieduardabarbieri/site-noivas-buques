@@ -2,6 +2,10 @@
 body {
   background-color: rgba(255, 223, 206, 0.46);
 }
+
+.div-principal-card5 {
+  margin-top: 150px;
+}
 .deal-container {
   position: relative;
   overflow: hidden;
@@ -37,14 +41,18 @@ body {
 }
 
 .deal-title {
-  font-size: 35px;
-  font-weight: 300; /* deixa a letra mais fina */
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 0; /* remove o espaçamento padrão de cima */
   color: rgba(48, 48, 48, 1);
   margin: 8px 0 5px 0; /* aproxima o label do número */
 }
 
 .deal-subtitle {
   color: rgba(122, 120, 120, 1);
+  font-size: 20px;
+  font-weight: 250;
+  margin-bottom: 2px; /* deixa bem colado no título */
 }
 
 .deal-of-the-day {
