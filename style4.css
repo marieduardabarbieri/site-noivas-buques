@@ -1,11 +1,13 @@
-
-.card4 h1, h2, h3 {
-  font-family: 'Jost', sans-serif;
+.card4 h1,
+h2,
+h3 {
+  font-family: "Jost", sans-serif;
   font-weight: 700; /* negrito */
 }
 
-.card4 p, span {
-  font-family: 'Jost', sans-serif;
+.card4 p,
+span {
+  font-family: "Jost", sans-serif;
   font-weight: 400; /* normal */
 }
 
@@ -18,9 +20,10 @@
 }
 
 .card4 .secao-produtos .subtitulo {
-  font-size: 24px;
-  color: #77777764;
+  font-size: 20px;
   font-weight: 400;
+  margin-bottom: 2px; /* deixa bem colado no título */
+  color: #77777764;
   text-transform: uppercase;
   position: relative;
   display: inline-block;
@@ -37,10 +40,11 @@
 }
 
 .card4 .secao-produtos .titulo {
-  font-size: 36px;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 0; /* remove o espaçamento padrão de cima */
   color: #222;
   margin-bottom: 50px;
-  font-weight: 600;
 }
 
 .card4 .secao-produtos .titulo .destaque {
@@ -130,4 +134,3 @@
     font-size: 28px;
   }
 }
- 
