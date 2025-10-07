@@ -1,4 +1,3 @@
-
 .card3-delivery-content {
   display: grid;
   place-items: center;
@@ -14,7 +13,7 @@
   z-index: 1;
 }
 
- .card3-delivery-content img {
+.card3-delivery-content img {
   width: 40px;
   padding: 25px;
 }
@@ -40,7 +39,7 @@
 }
 
 @media (max-width: 800px) {
-   .card3-delivery-content {
+  .card3-delivery-content {
     grid-template-columns: auto; /* 1 por linha */
   }
 }
