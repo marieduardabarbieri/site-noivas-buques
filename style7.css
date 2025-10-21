@@ -47,14 +47,22 @@ body {
   padding: 10px;
   margin: 0px 10px;
   box-sizing: border-box;
-  border: #fff 4px solid;
+  border: #fff 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px; /* altura fixa igual pra todos */
+  overflow: hidden;
+  border-radius: 7px;
 }
 
 .collection-img {
   width: 100%;
+  height: 100%;
+  object-fit: cover; /* garante que todas fiquem na mesma proporção */
   display: block;
+  margin: 10px;
 }
-
 /* Controles */
 .carousel-controls {
   display: flex;
