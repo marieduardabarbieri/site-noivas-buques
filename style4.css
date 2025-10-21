@@ -72,7 +72,7 @@ span {
 }
 
 .card4 .imagem-produto img {
-  width: 110%;
+  width: 50%;
   height: auto;
   position: relative;
   z-index: 2;
@@ -82,7 +82,7 @@ span {
 .card4 .imagem-produto::after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   width: 140px;
