@@ -72,29 +72,29 @@
   background: #ffa4a4;
   color: #fff;
   margin-bottom: 10%;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 
 .card6 .item-amarelo {
   background: #ffefd0;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .card6 .item-salmao-2 {
   background: #ffe2d1;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 .card6 .item-rosa-2 {
   background: #ffa4a4;
   color: #fff;
   margin-bottom: 10%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .card6 .item-amarelo-2 {
   background: #ffefd0;
   margin-right: 30%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 .card6 .item-rosa .titulo-item,
@@ -144,8 +144,7 @@
 }
 
 .card6 .imagem-central img {
-  max-width: 320px;
-  width: 150%;
+  width: 60%;
   display: block;
   margin: 0 auto;
 }
