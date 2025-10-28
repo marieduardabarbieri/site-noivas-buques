@@ -1,7 +1,4 @@
 /*PRIMEIRA PARTE DO Deal of the day*/
-body {
-  background-color: rgba(255, 223, 206, 0.46);
-}
 
 .div-principal-card5 {
   margin-top: 150px;
@@ -240,4 +237,11 @@ body {
   .deal-products {
     grid-template-columns: auto;
   }
+  .flor-direita{
+    display: none;
+  }
+  .flor-esquerda{
+    display: none;
+  }
+
 }

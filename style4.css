@@ -1,13 +1,11 @@
 .card4 h1,
 h2,
 h3 {
-  font-family: "Jost", sans-serif;
   font-weight: 700; /* negrito */
 }
 
 .card4 p,
 span {
-  font-family: "Jost", sans-serif;
   font-weight: 400; /* normal */
 }
 

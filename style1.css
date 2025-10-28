@@ -1,5 +1,7 @@
 .card1 header {
   padding: 20px 40px;
+  position: relative;
+  z-index: 10;
 }
 
 .card1 .cabecalho {
@@ -25,11 +27,11 @@
   font-weight: 500;
   color: #22222292;
 }
-
 .card1 .menu ul {
   display: flex;
   gap: 30px;
   list-style: none;
+  z-index: 100;
 }
 
 .card1 .menu a {
@@ -87,30 +89,53 @@
   background: none;
   border: none;
 }
+.card1{
+  position: relative;
+  overflow: visible;
+}
 
 
 @media (max-width: 768px) {
+  @media (max-width: 768px) {
+  .card1 {
+    position: relative; /* cria contexto para o z-index funcionar */
+    z-index: 10;
+  }
+
   .card1 .menu {
-    display: none; 
+    display: none;
+    position: absolute; /* importante para sobrepor */
+    top: 60px;
+    right: 20px;
+    z-index: 1000; /* garante que fique sobre a imagem */
   }
 
   .card1 .menu ul {
     flex-direction: column;
     gap: 15px;
     background: #fff8f3;
-    position: absolute;
-    top: 70px;
-    right: 20px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
 
   .card1 .menu.ativo {
-    display: block; 
+    display: block;
   }
 
   .card1 .menu-toggle {
-    display: block; 
+    display: block;
+    position: relative;
+    z-index: 1100; /* botão acima do menu e da imagem */
   }
+}
+
+/* Adicione também: */
+.imagem-principal {
+  position: relative;
+  z-index: 1; /* imagem fica abaixo do menu */
+}
+.card1 .logo span {
+  font-size: 13px;
+}
 }

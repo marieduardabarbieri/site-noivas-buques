@@ -157,14 +157,22 @@
   .card2 .titulo-destaque {
     font-size: 28px;
   }
-
+  .card2{
+    margin-top: 80px;
+  }
   .card2 .botao {
     padding: 10px 22px;
     font-size: 14px;
+  }
+  .card2 .coluna-texto{
+    margin: 50px;
   }
 
   .card2 .coluna-imagem::before {
     width: 280px;
     height: 280px;
+  }
+  .card2 .tag{
+    display: none;
   }
 }
