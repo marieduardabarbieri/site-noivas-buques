@@ -29,7 +29,7 @@
 }
 
 .card8 .titulo-principal .destaque {
-  color: #f58d8d;
+  color: #96271f;
   font-weight: 400;
 }
 
@@ -49,7 +49,7 @@
 
 .card8 .detalhes-cliente {
   text-align: left;
-  border-left: 3px solid #f58d8d;
+  border-left: 3px solid #96271f;
   padding-left: 12px;
 }
 

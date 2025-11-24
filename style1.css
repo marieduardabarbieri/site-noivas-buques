@@ -43,11 +43,11 @@
 }
 
 .card1 .menu a:hover {
-  color: #ff6f91;
+  color: #96271f;
 }
 
 .card1 .menu a.ativo {
-  color: #ff6f91;
+  color: #96271f;
   font-weight: 500;
 }
 
@@ -65,7 +65,7 @@
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #ff6f91;
+  background: #96271f;
   color: #fff;
   font-size: 14px;
   transition: 0.3s ease;

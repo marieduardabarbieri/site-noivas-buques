@@ -67,7 +67,7 @@
 }
 
 .timer-box {
-  background-color: rgba(255, 164, 164, 1);
+  background-color: #96271f;
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
   margin: 0px 10px;
@@ -172,7 +172,7 @@
 }
 
 #add-color {
-  color: rgba(255, 127, 127, 1);
+  color: #96271f;
 }
 
 .price-old {
@@ -183,10 +183,11 @@
   margin-left: 3px;
 }
 
+
 .product-price {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 5px; /* espaço entre os preços 
+  gap: 5px; /* espaço entre os preços *
 }
 
 .price-old {
@@ -198,7 +199,7 @@
 }
 
 .btn-add {
-  background-color: rgba(255, 164, 164, 1);
+  background-color: #96271f;
   color: rgba(255, 255, 255, 1);
   border-radius: 2.52px;
   padding: 3px;
@@ -207,7 +208,7 @@
 }
 
 .btn-add:hover {
-  background-color: #ff6f91;
+  background-color: #9e1006;
 }
 
 .product-desc {

@@ -18,7 +18,7 @@
   top: 80px;
   left: 50px;
   font-size: 20px;
-  color: #ff6f91;
+  color: #96271f;
   opacity: 0.6;
 }
 
@@ -35,7 +35,7 @@
   display: inline-block;
   margin-bottom: 5px;
   text-transform: uppercase;
-  border-left: 3px solid #ff6f91;
+  border-left: 3px solid #96271f;
   padding-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -51,7 +51,7 @@
 }
 
 .card2 .titulo-destaque .destaque {
-  color: #ff6f91;
+  color: #96271f;
   font-weight: 100;
 }
 
@@ -73,12 +73,12 @@
 }
 
 .card2 .botao-primario {
-  background: #ff6f91;
+  background: #96271f;
   color: #fff;
 }
 
 .card2 .botao-primario:hover {
-  background: #ff577c;
+  background: #99160c;
 }
 
 .card2 .coluna-imagem {

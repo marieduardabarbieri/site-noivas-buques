@@ -22,7 +22,7 @@
 
 .collections-title span {
   font-weight: 400; /* Collections */
-  color: #ff6f6f; /* Ajuste a cor conforme sua paleta */
+  color: #96271f; /* Ajuste a cor conforme sua paleta */
 }
 
 .collections-carousel {
@@ -68,7 +68,7 @@
 
 .prev-btn,
 .next-btn {
-  background: #f08080;
+  background: #96271f;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -80,7 +80,7 @@
 
 .prev-btn:hover,
 .next-btn:hover {
-  background: #e56767;
+  background: #2f0e0b;
 }
 
 .carousel-dots {
@@ -100,7 +100,7 @@
 }
 
 .dot.active {
-  background: #f08080;
+  background: #96271f;
 }
 
 /* Responsividade */

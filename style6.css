@@ -31,7 +31,6 @@
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
-  gap: 0px;
 }
 
 .card6 .coluna-informacoes {
@@ -43,10 +42,8 @@
 
 .card6 .item-informacao {
   border-radius: 12px;
-  margin: 0;
   text-align: left;
   width: 60%;
-  margin: 0 auto;
 }
 
 .card6 .item-informacao .titulo-item {
@@ -62,12 +59,12 @@
 }
 
 .card6 .item-salmao {
-  background: #ffe2d1;
+  background: #faccc3;
   margin-left: 30%;
   margin-bottom: 10%;
 }
 .card6 .item-rosa {
-  background: #ffa4a4;
+  background: #6caced;
   color: #fff;
   margin-bottom: 10%;
   margin-right: 20%;
@@ -79,11 +76,11 @@
 }
 
 .card6 .item-salmao-2 {
-  background: #ffe2d1;
+  background: #faccc3;
   margin-right: 20%;
 }
 .card6 .item-rosa-2 {
-  background: #ffa4a4;
+  background: #6caced;
   color: #fff;
   margin-bottom: 10%;
   margin-left: 20%;
@@ -122,7 +119,7 @@
 }
 
 .item-rosa:hover {
-  background-color: #ffb3b3;
+  background-color: #6caced77;
 }
 
 .item-amarelo:hover {
@@ -134,7 +131,7 @@
 }
 
 .item-rosa-2:hover {
-  background-color: #ffc4c4;
+  background-color: #6caced77;
 }
 
 .item-salmao-2:hover {
@@ -159,8 +156,9 @@
   }
 
   .card6 .item-informacao {
-    max-width: 45%;
+    max-width: 100%;
     margin: 0;
+    margin-bottom: 20px;
   }
 
   .card6 .imagem-central {
