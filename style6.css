@@ -5,7 +5,6 @@
   position: relative;
   overflow: hidden;
 }
-
 .card6 .secao-porque-escolher .subtitulo {
   color: #555;
   font-size: 20px;
@@ -30,25 +29,21 @@
 
 .card6 .conteudo-porque-escolher {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto auto auto;
   align-items: center;
-  gap: 40px;
 }
 
 .card6 .coluna-informacoes {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   position: relative;
   z-index: 1;
 }
 
 .card6 .item-informacao {
   border-radius: 12px;
-  margin: 0;
   text-align: left;
   width: 60%;
-  margin: 0 auto;
 }
 
 .card6 .item-informacao .titulo-item {
@@ -64,37 +59,37 @@
 }
 
 .card6 .item-salmao {
-  background: #ffe2d1;
+  background: #faccc3;
   margin-left: 30%;
   margin-bottom: 10%;
 }
 .card6 .item-rosa {
-  background: #ffa4a4;
+  background: #6caced;
   color: #fff;
   margin-bottom: 10%;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 
 .card6 .item-amarelo {
   background: #ffefd0;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .card6 .item-salmao-2 {
-  background: #ffe2d1;
-  margin-right: 30%;
+  background: #faccc3;
+  margin-right: 20%;
 }
 .card6 .item-rosa-2 {
-  background: #ffa4a4;
+  background: #6caced;
   color: #fff;
   margin-bottom: 10%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .card6 .item-amarelo-2 {
   background: #ffefd0;
   margin-right: 30%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 .card6 .item-rosa .titulo-item,
@@ -124,7 +119,7 @@
 }
 
 .item-rosa:hover {
-  background-color: #ffb3b3;
+  background-color: #6caced77;
 }
 
 .item-amarelo:hover {
@@ -136,7 +131,7 @@
 }
 
 .item-rosa-2:hover {
-  background-color: #ffc4c4;
+  background-color: #6caced77;
 }
 
 .item-salmao-2:hover {
@@ -144,8 +139,7 @@
 }
 
 .card6 .imagem-central img {
-  max-width: 320px;
-  width: 150%;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -162,8 +156,9 @@
   }
 
   .card6 .item-informacao {
-    max-width: 45%;
+    max-width: 100%;
     margin: 0;
+    margin-bottom: 20px;
   }
 
   .card6 .imagem-central {

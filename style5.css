@@ -1,7 +1,4 @@
 /*PRIMEIRA PARTE DO Deal of the day*/
-body {
-  background-color: rgba(255, 223, 206, 0.46);
-}
 
 .div-principal-card5 {
   margin-top: 150px;
@@ -70,7 +67,7 @@ body {
 }
 
 .timer-box {
-  background-color: rgba(255, 164, 164, 1);
+  background-color: #96271f;
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
   margin: 0px 10px;
@@ -95,7 +92,7 @@ body {
 }
 
 .product-card {
-  width: 55%;
+  width: 65%;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 6.04px;
@@ -104,7 +101,7 @@ body {
 }
 
 .product-img {
-  margin-top: -140px; /* faz a imagem "subir" e ficar metade pra fora */
+  margin-top: -150px; /* faz a imagem "subir" e ficar metade pra fora */
   float: right;
 }
 
@@ -175,7 +172,7 @@ body {
 }
 
 #add-color {
-  color: rgba(255, 127, 127, 1);
+  color: #96271f;
 }
 
 .price-old {
@@ -186,10 +183,11 @@ body {
   margin-left: 3px;
 }
 
+
 .product-price {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 5px; /* espaço entre os preços 
+  gap: 5px; /* espaço entre os preços *
 }
 
 .price-old {
@@ -201,7 +199,7 @@ body {
 }
 
 .btn-add {
-  background-color: rgba(255, 164, 164, 1);
+  background-color: #96271f;
   color: rgba(255, 255, 255, 1);
   border-radius: 2.52px;
   padding: 3px;
@@ -210,7 +208,7 @@ body {
 }
 
 .btn-add:hover {
-  background-color: #ff6f91;
+  background-color: #9e1006;
 }
 
 .product-desc {
@@ -240,4 +238,11 @@ body {
   .deal-products {
     grid-template-columns: auto;
   }
+  .flor-direita{
+    display: none;
+  }
+  .flor-esquerda{
+    display: none;
+  }
+
 }

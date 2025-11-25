@@ -1,9 +1,3 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #fffaf7;
-  margin: 0;
-  padding: 0;
-}
 
 .collections-section {
   text-align: center;
@@ -28,7 +22,7 @@ body {
 
 .collections-title span {
   font-weight: 400; /* Collections */
-  color: #ff6f6f; /* Ajuste a cor conforme sua paleta */
+  color: #96271f; /* Ajuste a cor conforme sua paleta */
 }
 
 .collections-carousel {
@@ -47,14 +41,22 @@ body {
   padding: 10px;
   margin: 0px 10px;
   box-sizing: border-box;
-  border: #fff 4px solid;
+  border: #fff 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px; /* altura fixa igual pra todos */
+  overflow: hidden;
+  border-radius: 7px;
 }
 
 .collection-img {
   width: 100%;
+  height: 100%;
+  object-fit: cover; /* garante que todas fiquem na mesma proporção */
   display: block;
+  margin: 10px;
 }
-
 /* Controles */
 .carousel-controls {
   display: flex;
@@ -66,19 +68,19 @@ body {
 
 .prev-btn,
 .next-btn {
-  background: #f08080;
+  background: #96271f;
   color: #fff;
   border: none;
   padding: 10px 15px;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 20%;
   font-size: 18px;
   transition: background 0.3s;
 }
 
 .prev-btn:hover,
 .next-btn:hover {
-  background: #e56767;
+  background: #2f0e0b;
 }
 
 .carousel-dots {
@@ -98,7 +100,7 @@ body {
 }
 
 .dot.active {
-  background: #f08080;
+  background: #96271f;
 }
 
 /* Responsividade */
